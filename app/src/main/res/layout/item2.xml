@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="12dp"
+    android:backgroundTint="@color/black"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="8dp"
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image_clothing_p10"
+            android:src="@drawable/ic_p10"
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+
+        <TextView
+            android:id="@+id/tv_name_clothing_p10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="12dp"
+            android:text="P10 Full Outdoor"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:gravity="center"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textColor="@color/white"
+            android:padding="1dp"
+            app:layout_constraintHorizontal_bias="0.5"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:fontFamily="serif"
+            app:layout_constraintTop_toBottomOf="@id/image_clothing_p10"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.cardview.widget.CardView>
